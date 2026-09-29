@@ -364,6 +364,12 @@ options = {
 
 Unpublish a previously published L2CAP channel identified by `psm: number`.
 
+#### `server.removeAllServices()`
+
+Remove all services previously added with `server.addService()` from the GATT server.
+
+Apple only. `undefined` on other platforms.
+
 #### `server.destroy()`
 
 Destroy the server and release all resources.
